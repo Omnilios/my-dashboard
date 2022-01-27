@@ -7,7 +7,7 @@ let myLeads=[]
 const inputEl=document.querySelector("#input-el")
 const ulEl = document.querySelector("#ul-el")
 const deleteBtn=document.querySelector("#delete-btn")
-
+console.log("hello git")
 
 const leadsFromLocalStorage= JSON.parse(localStorage.getItem("myLeads"))
 
